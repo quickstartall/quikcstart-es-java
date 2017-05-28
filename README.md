@@ -22,9 +22,6 @@ elasticsearch-5.0.0
 
 (7) You will see output as follows:
 Calling sweet API...
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 Following Music created successfully. Enjoy your day!
 com.raquibul.quickstartall.es.model.Music@4d826d77[name=Bollywood Track 1,year=Sun May 28 13:09:05 CEST 2017,lyrics=Chhu kar mera mann ko tune kiya isara..,documentId=1]
 Following Music created successfully. Enjoy your day!
