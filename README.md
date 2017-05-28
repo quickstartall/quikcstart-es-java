@@ -16,11 +16,15 @@ Please look at the comments in the main class MusicApp, it's self-explanatory.
         (5)The elastic search api will, by default, run on port 9200 <http://localhost:9200>. If it's running on this default port skip         following step
                 If you run elastic search on other port please update the url in ESJestClient as follows.	
                 private static final String SERVER_URI = "http://localhost:9200";	
-        (6) Once the elastic serach is started run the class MusicApp in either of the folowing way:
-	(6a)java -jar target\es-jest-1.0-SNAPSHOT-jar-with-dependencies.jar
-	(6b) if you are using eclipse, run MusicApp from the project explorer Right-Click ==> Run As ==> Java Application
+	(6)Download/clone the project to your local system
+	(7)go to project root directory (quickstartall-es-jest)and run mvn clean package
+	There will be two jars created under target (A) es-jest-1.0-SNAPSHOT (B) es-jest-1.0-SNAPSHOT-jar-with-dependencies
+	Later on is an executable jar created automatically when you run mvn package
+        (8) Once the elastic serach is started run the class MusicApp in either of the folowing way:
+	(8a)java -jar target\es-jest-1.0-SNAPSHOT-jar-with-dependencies.jar
+	(8b) if you are using eclipse, run MusicApp from the project explorer Right-Click ==> Run As ==> Java Application
 
-        (7) You will see output as follows:
+        (9) You will see output as follows:
         Calling sweet API...
         Following Music created successfully. Enjoy your day!
         com.raquibul.quickstartall.es.model.Music@4d826d77[name=Bollywood Track 1,year=Sun May 28 13:09:05 CEST 2017,lyrics=Chhu kar mera mann ko tune kiya isara..,documentId=1]
